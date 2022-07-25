@@ -8,4 +8,4 @@ date: 2022-07-20
 location: "Glasgow, Scotland"
 ---
 
-A talk I gave during the Applied Category Theory Conference 2022, in which I discussed my group's work during the research week of the Adjoint School 2022. A recording of the talk can be found [here](https://www.youtube.com/watch?v=KsxKNzUnE6E&t=28861s), while the slides can be found [here](https://github.com/sjboc/sjboc.github.io/blob/6b37496e6958dcf14cfeca6286f2e92a4fbca692/files/act-fuzzy-type-theory-for-opinion-dynamics.pdf).
+A talk I gave during the Applied Category Theory Conference 2022, in which I discussed my group's work during the research week of the Adjoint School 2022. A recording of the talk can be found [here](https://www.youtube.com/watch?v=KsxKNzUnE6E&t=28861s), while the slides can be found [here](https://github.com/sjboc/sjboc.github.io/blob/793fa2e8527b381605a39160b13cedaf692aaa37/files/act-fuzzy-type-theory-for-opinion-dynamics.pdf).
