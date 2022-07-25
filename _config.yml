@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sean James O'Connor"
 title_separator          : "-"
 name                     : &name "Sean James O'Connor"
-description              : &description "personal description"
+description              : 4th Year Undergrad | she/they &description "personal description"
 url                      : https://sjboc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sjboc/sjboc.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Sean James O'Connor"
   avatar           : "profile.png"
-  bio              : "she/they - 4th Yeah Undergrad"
+  bio              : "4th Yeah Undergrad | she/they"
   location         : "Johns Hopkins University"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
