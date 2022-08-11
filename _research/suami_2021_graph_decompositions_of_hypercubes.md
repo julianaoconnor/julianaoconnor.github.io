@@ -1,5 +1,5 @@
 ---
-title: "Path and Cycle Decompositions of Hypercube graphs"
+title: "Path and Cycle Decompositions of Hypercube Graphs"
 collection: research
 type: "Research"
 permalink: /research/suami_2021_graph_decompositions_of_hypercubes
