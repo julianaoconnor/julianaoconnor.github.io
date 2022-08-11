@@ -3,8 +3,7 @@ title: "Path and Cycle Decompositions of Hypercube graphs"
 collection: research
 type: "Research"
 permalink: /research/suami_2021_graph_decompositions_of_hypercubes
-venue: "Summer Undergraduate Applied Mathematics Institute 2021, Carnegie Mellon University"
-date: 2021-07-30
+date: In Progress
 location: "Pittsburgh, Pennsylvania"
 ---
 
