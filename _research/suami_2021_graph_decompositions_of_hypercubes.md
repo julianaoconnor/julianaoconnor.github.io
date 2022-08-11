@@ -10,7 +10,7 @@ location: "Pittsburgh, Pennsylvania"
 
 During the summer of 2021, I participated in an REU at Carnegie Mellon University's Summer Undergraduate Applied Mathematics Institute. Here two other students and I, advised by Professor David Offner, did novel research in graph theory which we are in the process of writing a paper about.
 
-This program culminated in a poster session with several other summer programs at CMU. A link to our poster can be found [here](), and you can find our project listed on the SUAMI 2021 page [here](https://www.cmu.edu/math/undergrad/suami/2021/index.html). The abstract for our project is also pasted below.
+This program culminated in a poster session with several other summer programs at CMU. A link to our poster can be found [here](https://github.com/sjboc/sjboc.github.io/blob/bcf1f0843fe527f0cef2ab104b368552e4c3ea41/files/Poster_SUAMI_Group_G.pdf), and you can find our project listed on the SUAMI 2021 page [here](https://www.cmu.edu/math/undergrad/suami/2021/index.html). The abstract for our project is also pasted below.
 
 A graph $H$ decomposes a graph $G$ if the edge set of $G$ can be partitioned into edge-disjoint subgraphs isomorphic to $H$. We consider decompositions of the $n$-dimensional hypercube $Q_n$ into paths and cycles. A conjecture by Erde (2014) asserts that if $n$ is even, then a path of length $\ell$ decomposes $Q_n$ if the necessary conditions that $\ell < 2n$ and $\ell$ divides the number of edges of $Q_n$ hold. 
 
