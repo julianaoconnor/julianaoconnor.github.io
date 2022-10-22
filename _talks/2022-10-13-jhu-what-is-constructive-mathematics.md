@@ -3,7 +3,7 @@ title: "What is Constructive Mathematics?"
 collection: talks
 type: "Talk"
 permalink: /talks/2022-10-13-jhu-what-is-constructive-mathematics
-venue: "What is... Seminars 2022, Johns Hopkins University"
+venue: "What is... Seminar 2022, Johns Hopkins University"
 date: 2022-10-13
 location: "Baltimore, Maryland"
 ---
