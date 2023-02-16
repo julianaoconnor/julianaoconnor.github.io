@@ -1,7 +1,7 @@
 ---
 title: 'Cameo in n-Category Cafe Post'
 date: 2023-01-04
-permalink: /posts/2023/04/n-category-theory-cafe-cameo/ 
+permalink: /posts/2023/01/n-category-theory-cafe-cameo/ 
 tags:
 ---
 
