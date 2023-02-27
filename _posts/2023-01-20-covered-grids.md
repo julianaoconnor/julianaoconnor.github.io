@@ -5,41 +5,14 @@ permalink: /posts/2023/01/covered-grids/
 tags:
 ---
 
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
-
-\documentclass{amsart}
-\usepackage[utf8]{inputenc}
-\usepackage{enumitem}
-\usepackage{physics}
-\usepackage{bm}
-\usepackage{bbm}
-\usepackage{hyperref}
-\usepackage{tikz} 
-\usetikzlibrary{positioning, arrows, matrix, intersections}
-\usepackage{tabularx}
-\newcolumntype{C}{>{\centering\arraybackslash}X}
-\usepackage{adjustbox}
-
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.12}
-\usepgfplotslibrary{fillbetween}
-
-\title{Covered Grids}
-\author{Sean O'Connor}
-\date{20 January 2023}
-
-
-\newcommand{\N}{\mathbbm{N}}
-\newcommand{\Z}{\mathbbm{Z}}
-\newcommand{\Q}{\mathbbm{Q}}
-\newcommand{\R}{\mathbbm{R}}
-
-\begin{document}
-
-\maketitle
+<head>
+  <script
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    type="text/javascript">
+  </script>
+  <link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
+  <script src="http://tikzjax.com/v1/tikzjax.js"></script>
+</head>
 
 \LARGE{
 
@@ -58,13 +31,13 @@ The way I like to frame this problem deals with "covered" "grids". A grid in thi
 
 \begin{minipage}{0.4\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (0,3) rectangle (1,4);
 \fill[black] (1,1) rectangle (2,2);
 \fill[black] (2,2) rectangle (3,3);
 \fill[black] (3,0) rectangle (4,1);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.6\linewidth}
@@ -83,14 +56,14 @@ This 4-by-4 grid is covered, as every rectangle in the grid of area at least 4 c
 
 \begin{minipage}{0.4\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (0,3) rectangle (1,4);
 \fill[black] (1,2) rectangle (2,3);
 \fill[black] (2,1) rectangle (3,2);
 \fill[black] (3,0) rectangle (4,1);
 \draw[red, very thick] (2,2) rectangle (4,4);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.6\linewidth}
@@ -105,7 +78,7 @@ This 4-by-4 grid is not covered, as the red rectangle has an area of 4 and does 
 
 \begin{minipage}{0.5\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (5,5);
 \fill[black] (0,4) rectangle (1,5);
 \fill[black] (1,3) rectangle (2,4);
@@ -113,7 +86,7 @@ This 4-by-4 grid is not covered, as the red rectangle has an area of 4 and does 
 \fill[black] (3,1) rectangle (4,2);
 \fill[black] (4,0) rectangle (5,1);
 \draw[red, very thick] (2,3) rectangle (5,5);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.5\linewidth}
@@ -128,14 +101,14 @@ This 5-by-5 grid is not covered, as the red rectangle has an area of 6 (and thus
 
 \begin{minipage}{0.5\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (5,5);
 \fill[black] (0,4) rectangle (1,5);
 \fill[black] (2,3) rectangle (3,4);
 \fill[black] (4,2) rectangle (5,3);
 \fill[black] (1,1) rectangle (2,2);
 \fill[black] (3,0) rectangle (4,1);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.5\linewidth}
@@ -180,19 +153,19 @@ Then, using symmetry we can do a simple case bash, as described in the following
 
 \begin{minipage}{0.5\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (0,3) rectangle (1,4);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.5\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (1,3) rectangle (2,4);
 \fill[black] (2,2) rectangle (3,3);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 
@@ -200,11 +173,11 @@ Then, using symmetry we can do a simple case bash, as described in the following
 
 \begin{minipage}{0.4\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (1,3) rectangle (2,4);
 \fill[black] (3,2) rectangle (4,3);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.6\linewidth}
@@ -219,24 +192,24 @@ By symmetry, we can just consider these three cases, as we will see that if we r
 
 \begin{minipage}{0.5\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (0,3) rectangle (1,4);
 \draw[red, very thick] (1,2) rectangle (3,4);
 \draw[red, very thick] (2,2) rectangle (4,4);
 \fill[pink] (2,2) rectangle (3,3);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.5\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (0,3) rectangle (1,4);
 \fill[black] (2,2) rectangle (3,3);
 \draw[red, very thick] (0,1) rectangle (2,3);
 \fill[pink] (1,1) rectangle (2,2);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 
@@ -244,14 +217,14 @@ By symmetry, we can just consider these three cases, as we will see that if we r
 
 \begin{minipage}{0.4\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (0,3) rectangle (1,4);
 \fill[black] (2,2) rectangle (3,3);
 \fill[black] (1,1) rectangle (2,2);
 \draw[red, very thick] (2,0) rectangle (4,2);
 \fill[pink] (3,0) rectangle (4,1);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.6\linewidth}
@@ -270,25 +243,25 @@ In the first case, we see that the colored square in the second row is fully det
 
 \begin{minipage}{0.5\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (1,3) rectangle (2,4);
 \fill[black] (2,2) rectangle (3,3);
 \draw[red, very thick] (0,1) rectangle (2,3);
 \fill[pink] (0,1) rectangle (1,2);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.5\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (1,3) rectangle (2,4);
 \fill[black] (2,2) rectangle (3,3);
 \fill[black] (0,1) rectangle (1,2);
 \draw[red, very thick] (3,0) rectangle (4,4);
 \fill[pink] (3,0) rectangle (4,1);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 
@@ -296,14 +269,14 @@ In the first case, we see that the colored square in the second row is fully det
 
 \begin{minipage}{0.4\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (1,3) rectangle (2,4);
 \fill[black] (2,2) rectangle (3,3);
 \fill[black] (0,1) rectangle (1,2);
 \fill[black] (3,0) rectangle (4,1);
 \draw[red, very thick] (1,0) rectangle (3,2);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.6\linewidth}
@@ -318,25 +291,25 @@ In the second case, we once again see that each colored square is fully determin
 
 \begin{minipage}{0.5\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (1,3) rectangle (2,4);
 \fill[black] (3,2) rectangle (4,3);
 \draw[red, very thick] (0,1) rectangle (2,3);
 \fill[pink] (0,1) rectangle (1,2);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.5\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (1,3) rectangle (2,4);
 \fill[black] (3,2) rectangle (4,3);
 \fill[black] (0,1) rectangle (1,2);
 \draw[red, very thick] (1,0) rectangle (3,2);
 \fill[pink] (2,0) rectangle (3,1);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 
@@ -344,14 +317,14 @@ In the second case, we once again see that each colored square is fully determin
 
 \begin{minipage}{0.4\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
 \fill[black] (1,3) rectangle (2,4);
 \fill[black] (3,2) rectangle (4,3);
 \fill[black] (0,1) rectangle (1,2);
 \fill[black] (2,0) rectangle (3,1);
 \draw[red, very thick] (1,1) rectangle (3,3);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.6\linewidth}
@@ -378,7 +351,7 @@ From this we see that if this 8-by-8 grid is covered, so is this embedded 4-by-4
 
 \begin{minipage}{0.7\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (8,8);
 \fill[black] (1,7) rectangle (2,8);
 \fill[black] (5,6) rectangle (6,7);
@@ -390,7 +363,7 @@ From this we see that if this 8-by-8 grid is covered, so is this embedded 4-by-4
 \fill[black] (5,2) rectangle (6,3);
 \fill[black] (2,1) rectangle (3,2);
 \fill[black] (6,0) rectangle (7,1);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.3\linewidth}
@@ -409,14 +382,14 @@ Consider this 8-by-8 grid, which contains 10 colored squares and is in fact cove
 
 \begin{minipage}{0.7\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[xstep=2cm, ystep=1cm,black] (0,0) grid (8,4);
 \fill[black] (1,3) rectangle (2,4);
 \fill[black] (5,2) rectangle (6,3);
 \fill[black] (2,1) rectangle (3,2);
 \fill[black] (7,0) rectangle (8,1);
 \fill[black] (4,0) rectangle (5,1);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.3 \linewidth}
@@ -431,14 +404,14 @@ Next, we can group together these squares into 2-by-1 rectangles, which we can t
 
 \begin{minipage}{0.7\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[xstep=2cm, ystep=1cm,black] (0,0) grid (8,4);
 \fill[black] (0,3) rectangle (2,4);
 \fill[black] (4,2) rectangle (6,3);
 \fill[black] (2,1) rectangle (4,2);
 \fill[black] (6,0) rectangle (8,1);
 \fill[black] (4,0) rectangle (6,1);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.3 \linewidth}
@@ -453,13 +426,13 @@ Then, we color each of these 2-by-1 rectangles if it contains a colored square, 
 
 \begin{minipage}{0.7\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (8,4);
 \draw[red, very thick] (0,3) rectangle (2,4);
 \draw[red, very thick] (4,2) rectangle (6,3);
 \draw[red, very thick] (2,1) rectangle (4,2);
 \draw[red, very thick] (6,0) rectangle (8,1);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.3 \linewidth}
@@ -486,7 +459,7 @@ We can then use this to show that this is impossible for n $>$ 4, as described i
 
 \begin{minipage}{0.7\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (8,4);
 \draw[red, very thick] (0,3) rectangle (2,4);
 \draw[red, very thick] (4,2) rectangle (6,3);
@@ -494,7 +467,7 @@ We can then use this to show that this is impossible for n $>$ 4, as described i
 \draw[red, very thick] (6,0) rectangle (8,1);
 \draw[red, very thick] (0,0) rectangle (3,3);
 \draw[red, very thick] (5,1) rectangle (8,4);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.3 \linewidth}
@@ -509,7 +482,7 @@ As the ceiling of 8/3 is 3, we note that the 3-by-3 rectangles in the indicated 
 
 \begin{minipage}{0.7\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (8,4);
 \draw[red, very thick] (0,3) rectangle (2,4);
 \draw[red, very thick] (4,2) rectangle (6,3);
@@ -519,7 +492,7 @@ As the ceiling of 8/3 is 3, we note that the 3-by-3 rectangles in the indicated 
 \draw[red, very thick] (5,1) rectangle (8,4);
 \fill[pink] (2,1) rectangle (3,2);
 \fill[pink] (5,2) rectangle (6,3);
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.3 \linewidth}
@@ -538,7 +511,7 @@ In the n = 8 case, we note that this uniquely determines the placement of the co
 
 \begin{minipage}{0.7\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (8,4);
 \draw[red, very thick] (0,3) rectangle (2,4);
 \draw[red, very thick] (4,2) rectangle (6,3);
@@ -550,7 +523,7 @@ In the n = 8 case, we note that this uniquely determines the placement of the co
 \fill[pink] (5,2) rectangle (6,3);
 \draw [decorate,decoration={brace,amplitude=10pt,mirror,raise=2ex}]
   (3,0) -- (5,0) node[midway,yshift=-2.5em]{$d \ge n - 2 \left \lceil \dfrac{n}{3} \right \rceil $};
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.3 \linewidth}
@@ -565,14 +538,14 @@ In general, we get that the horizontal distance between the colored squares in t
 
 \begin{minipage}{0.7\linewidth}
 
-\begin{tikzpicture}
+<script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (8,4);
 \fill[pink] (2,1) rectangle (3,2);
 \fill[pink] (5,2) rectangle (6,3);
 \draw[red, very thick] (3,0) rectangle (5,4);
 \draw [decorate,decoration={brace,amplitude=10pt,mirror,raise=2ex}]
   (3,0) -- (5,0) node[midway,yshift=-2.5em]{$d \ge n - 2 \left \lceil \dfrac{n}{3} \right \rceil $};
-\end{tikzpicture}
+  \end{tikzpicture} </script>
 
 \end{minipage}
 \begin{minipage}{0.3 \linewidth}
@@ -625,7 +598,7 @@ However, a better reason I think that T(n) is not O(n) is that this implies ther
 
 \vskip 1em
 
-\href{https://en.wikipedia.org/wiki/Danzer_set}{\url{https://en.wikipedia.org/wiki/Danzer_set}}
+[https://en.wikipedia.org/wiki/Danzer_set](https://en.wikipedia.org/wiki/Danzer_set)
 
 \vskip 1em
 
@@ -665,7 +638,7 @@ Anyways, hope all this was interesting! This entire thread is also on an Overlea
 
 \vskip 1em
 
-\href{https://www.overleaf.com/read/pdmjgyfthdzh}{\url{https://www.overleaf.com/read/pdmjgyfthdzh}}
+[https://www.overleaf.com/read/pdmjgyfthdzh](https://www.overleaf.com/read/pdmjgyfthdzh})
 
 \vskip 1em
 
@@ -674,5 +647,3 @@ Have a good weekend everyone! :)
 %}
 
 }
-
-\end{document}
