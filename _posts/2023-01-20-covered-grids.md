@@ -288,7 +288,7 @@ From all this, we see that, given an n a multiple of 4, to prove that the first 
 
 We already have that this is true for n = 8, and the plot below shows that this does indeed hold true for n $>$ 4. So this implies that T(n) is greater than n for all multiples of 4 !
 
-![2023-01-GraTeX.png](../images/posts/2023-01-GraTeX.png)
+![2023-01-GraTeX.png](/images/posts/2023-01-GraTeX.png)
 
 In fact, we do a lot better than just this! Note that the exact same argument applies to every consecutive 4 rows in an n-by-n grid, so we actually get that T(4n) is greater than or equal to 5n.
 
