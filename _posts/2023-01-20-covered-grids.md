@@ -3,7 +3,6 @@ title: 'A Fun Unsolved Problem - Covered Grids'
 date: 2023-01-20
 permalink: /posts/2023/01/covered-grids/
 usemathjax: true
-usetikzjax: true
 tags:
 ---
 
@@ -15,7 +14,7 @@ I want to share a fun problem I don't know how to solve! I discovered it a few y
 
 Test:
 
-$ 3 + 4 x = 9 $
+$ 3 + 4 x = 5 $
 
 <script type="text/tikz">
   \begin{tikzpicture}
