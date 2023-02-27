@@ -11,9 +11,9 @@ tags:
     type="text/javascript">
   </script>
   <link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
-  <script src="http://tikzjax.com/v1/tikzjax.js"></script>
+  <script src="http://tikzjax.com/v1/tikzjax.js">
+  </script>
 </head>
-
 
 I want to share a fun problem I don't know how to solve! I discovered it a few years ago, but I only got a few partial results. It also has some neat implications I’ll talk about later!
 
@@ -28,8 +28,6 @@ The way I like to frame this problem deals with "covered" "grids". A grid in thi
   \end{tikzpicture} </script>
 
 This 4-by-4 grid is covered, as every rectangle in the grid of area at least 4 contains a colored square.
-
-\phantom{skipping line to format image better}
 
 <script type="text/tikz">   \begin{tikzpicture}
 \draw[step=1cm,black] (0,0) grid (4,4);
