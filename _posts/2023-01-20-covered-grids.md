@@ -2,6 +2,7 @@
 title: 'A Fun Unsolved Problem - Covered Grids'
 date: 2023-01-20
 permalink: /posts/2023/01/covered-grids/
+usemathjax: true
 tags:
 ---
 <!--usemathjax: true
