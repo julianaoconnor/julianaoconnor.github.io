@@ -13,12 +13,8 @@ Test:
 
 $ 3 + 4 x = 7 $
 
-The way I like to frame this problem deals with "covered" "grids". A grid in this case is an n-by-n grid of unit squares, each of which can be colored or uncolored. An n-by-n grid is covered if each rectangle in the grid of area at least n contains a colored square. These images illustrate some examples!
-
-<script type="text/tikz">   \begin{tikzpicture}
-\draw[step=1cm,black] (0,0) grid (4,4);
-\fill[black] (0,3) rectangle (1,4);
-\fill[black] (1,1) rectangle (2,2);
-\fill[black] (2,2) rectangle (3,3);
-\fill[black] (3,0) rectangle (4,1);
-  \end{tikzpicture} </script>
+<script type="text/tikz">
+  \begin{tikzpicture}
+    \draw (0,0) circle (1in);
+  \end{tikzpicture}
+</script>
