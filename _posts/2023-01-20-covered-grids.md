@@ -11,7 +11,7 @@ I want to share a fun problem I don't know how to solve! I discovered it a few y
 
 Test:
 
-$ 3 + 4 x = 8 $
+$ 3 + 4 x = 9 $
 
 <script type="text/tikz">
   \begin{tikzpicture}
