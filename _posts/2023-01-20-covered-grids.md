@@ -11,7 +11,7 @@ I want to share a fun problem I don't know how to solve! I discovered it a few y
 
 Test:
 
-$ 3 + 4 x = 5 $
+$ 3 + 4 x = 6 $
 
 The way I like to frame this problem deals with "covered" "grids". A grid in this case is an n-by-n grid of unit squares, each of which can be colored or uncolored. An n-by-n grid is covered if each rectangle in the grid of area at least n contains a colored square. These images illustrate some examples!
 
