@@ -7,10 +7,6 @@ usetikzjax: true
 tags:
 ---
 
-<link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
-<script src="http://tikzjax.com/v1/tikzjax.js">
-</script>
-
 I want to share a fun problem I don't know how to solve! I discovered it a few years ago, but I only got a few partial results. It also has some neat implications I’ll talk about later!
 
 Test:
