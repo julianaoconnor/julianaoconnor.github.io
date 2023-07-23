@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sean James O'Connor"
+title                    : "Sean J O'Connor"
 title_separator          : "-"
-name                     : &name "Sean James O'Connor"
-description              : 4th Year Undergrad | she/they &description "personal description"
+name                     : &name "Sean J O'Connor"
+description              : 1st Year PhD Student | she/they &description "personal description"
 url                      : https://sjboc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sjboc/sjboc.github.io"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Sean James O'Connor"
+  name             : "Sean J O'Connor"
   avatar           : "profile.png"
-  bio              : "4th Year Undergrad | she/they"
-  location         : "Johns Hopkins University"
+  bio              : "1st Year PhD Student | she/they"
+  location         : "Carnegie Mellon University"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            : soconn19@jhu.edu
+  email            : sjoconno@andrew.cmu.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -110,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : seano_math # "replacethistwitterhandle"
+  twitter          : # seano_math # "replacethistwitterhandle" # don't really use this anymore
   vine             :
   weibo            :
   xing             :
