@@ -2,7 +2,7 @@
 title: "Fuzzy Type Theory for Opinion Dynamics"
 collection: research
 type: "Research"
-permalink: /research/adjoint-school-2022-fuzzy-type-theory-for-opinion-dynamics
+permalink: /research/djoint-school-2022-fuzzy-type-theory-for-opinion-dynamics
 date: 2022-07-15
 location: "Glasgow, Scotland"
 ---
