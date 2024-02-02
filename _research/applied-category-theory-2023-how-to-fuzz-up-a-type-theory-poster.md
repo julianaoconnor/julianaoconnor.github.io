@@ -1,5 +1,5 @@
 ---
-title: "How o Fuzz Up A Type Theory"
+title: "How to Fuzz Up A Type Theory"
 collection: research
 type: "Research"
 permalink: /research/applied-category-theory-2023-how-to-fuzz-up-a-type-theory-poster
