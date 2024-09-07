@@ -7,4 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a first-year Computer Science PhD student at Carnegie Mellon University with a focus on Programming Languages. At the moment I am particularly interested in Homotopy Type Theory and the fields adjacent to it, including type theory as a whole, constructive mathematics, and computer formalization/proof assistants. I am also currently participating in two research projects, one focused on category theory/type theory and the other focused on graph theory.
+Hello! I am a second-year Computer Science PhD student at Carnegie Mellon University with a focus on Programming Languages. My current work is on researching interoperability of proof assistants in the theoretical setting. So, less on how to translate Lean into Rocq, and more on how would one build proof assistants from the ground up to be interoperable with each other! As such, I am interested in type theory (including Homotopy Type Theory in particular), computer formalization/proof assistants, and usability and pedagogy.
+
+In addition to my main line of research, I am currently working on a pedagogical proof assistant for synthetic calculus, aiming at using a type theory based on synthetic differential geometry to formalize calculus with much greater ease than any existing system. This tool will be developed primarily with a focus on usability and pedagogy, with the hope of helping students familiar with calculus to learn how to do mathematical proofs without the burden of learning an entire new area of math.
