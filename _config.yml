@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sean J O'Connor"
+title                    : "Juli O'Connor"
 title_separator          : "-"
-name                     : &name "Sean J O'Connor"
+name                     : &name "Juli O'Connor"
 description              : 2nd Year PhD Student | she/they &description "personal description"
 url                      : https://sjboc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Sean J O'Connor"
+  name             : "Juli O'Connor"
   avatar           : "profile.png"
   bio              : "2nd Year PhD Student | she/they"
   location         : "Carnegie Mellon University"
@@ -103,18 +103,18 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  mastodon         : mathstodon.xyz/@seano # added custom from https://github.com/GuillermoFidalgo/guillermofidalgo.github.io
+  mastodon         : mathstodon.xyz/@juli # added custom from https://github.com/GuillermoFidalgo/guillermofidalgo.github.io
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : # seano_math # "replacethistwitterhandle" # don't really use this anymore
+  twitter          : 
   vine             :
   weibo            :
   xing             :
-  youtube          : ../@seano_math # no way in hell this works, what the fuck
+  youtube          : ../@algebraic_juli # no way in hell this works, what the fuck
   wikipedia        :
 
 
