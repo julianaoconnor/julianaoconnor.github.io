@@ -2,7 +2,7 @@
 title: "Path and Cycle Decompositions of Hypercube Graphs"
 collection: research
 type: "Research"
-permalink: /research/suami_2021
+permalink: /research/suami-2021
 date: 2021-07-30
 location: "Pittsburgh, Pennsylvania"
 ---
