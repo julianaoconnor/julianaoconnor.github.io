@@ -7,7 +7,7 @@ date: 2021-07-30
 location: "Pittsburgh, Pennsylvania"
 ---
 
-During the summer of 2021, I participated in an REU at Carnegie Mellon University's Summer Undergraduate Applied Mathematics Institute. Here two other students and I, advised by Professor David Offner, did novel research in graph theory which we are in the process of writing a paper about.
+During the summer of 2021, I participated in an REU at Carnegie Mellon University's Summer Undergraduate Applied Mathematics Institute. Here two other students and I, advised by Professor David Offner, did novel research in graph theory.
 
 This program culminated in a poster session with several other summer programs at CMU. Our poster can be found [below](https://github.com/sjboc/sjboc.github.io/blob/bcf1f0843fe527f0cef2ab104b368552e4c3ea41/files/Poster_SUAMI_Group_G.pdf), and you can find our project listed on the SUAMI 2021 page [here](https://www.cmu.edu/math/undergrad/suami/2021/index.html). The abstract for our project is also pasted below.
 
