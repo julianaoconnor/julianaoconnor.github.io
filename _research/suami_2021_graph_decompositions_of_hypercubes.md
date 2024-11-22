@@ -14,3 +14,5 @@ This program culminated in a poster session with several other summer programs a
 A graph H decomposes a graph G if the edge set of G can be partitioned into edge-disjoint subgraphs isomorphic to H. We consider decompositions of the n-dimensional hypercube Qₙ into paths and cycles. A conjecture by Erde (2014) asserts that if n is even, then a path of length ℓ decomposes Qₙ if the necessary conditions that ℓ < 2n and ℓ divides the number of edges of Qₙ hold. 
 
 Offner et al. (2021) proved, among other results, that if n is the sum of at most two powers of 2, then the cycle with the largest length divisible by n while still satisfying the necessary conditions provided by Erde decomposes Qₙ. We improved this result to the case of n being the sum of at most three powers of 2, and strengthened other results of Offner et. al.
+
+<object data="{{ site.url }}{{ site.baseurl }}/files/Poster_SUAMI_Group_G.pdf" width="1000" height="800" type="application/pdf"></object>
